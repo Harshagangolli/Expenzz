@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/itemType"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:textColor="@color/white"
+        android:hint="@string/type_of_expenditure"
+        android:autofillHints=""
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/itemAmount"
+        android:ems="13"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="@string/item_amount"
+        android:autofillHints=""
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:ems="13"
+        android:hint="@string/date"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/itemDescription"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:ems="13"
+        android:hint="@string/item_description"
+        android:autofillHints=""
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btn_addExpenditure"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_expenditure"
+        android:backgroundTint="#00FF00"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</LinearLayout>

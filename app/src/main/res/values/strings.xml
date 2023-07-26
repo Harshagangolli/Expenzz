@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="next">Next</string>
+    <string name="ph">placeHolder</string>
+    <string name="welcome_to_test">Welcome to Test</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="expenzz">Expenzz</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">-OR-</string>
+    <string name="signup">SignUp</string>
+    <string name="alert">Incorrect Credentials!!</string>
+    <string name="what_should_we_call_you">What Should We Call You?</string>
+    <string name="choose_a_password">Choose a Password</string>
+    <string name="add_new">Add new</string>
+    <string name="type_of_expenditure">Expenditure Name</string>
+    <string name="item_amount">Item Amount</string>
+    <string name="item_description">Item Description(Optional)</string>
+    <string name="amount_to_be_divided_between">Amount To Be Divided Between:</string>
+    <string name="date">Date</string>
+    <string name="add_expenditure">Add Expenditure</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="tt">Total Expenditure: </string>
+    <string name="your_expenditure">Your Expenditure!</string>
+    <string name="your_mail_id">Your Mail Id?</string>
+    <string name="email">Email</string>
+</resources>

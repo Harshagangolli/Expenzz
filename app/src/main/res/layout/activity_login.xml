@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="15"
+        android:hint="@string/email"
+        android:textColor="@color/white"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="@string/password"
+        android:textColor="@color/white"
+        android:autofillHints="password"
+        android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/alert_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF0000"
+            android:textSize="17sp"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:ems="6"
+            android:backgroundTint="#1EAFF1"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="@string/or"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/signup"
+        android:textAllCaps="false"
+        android:ems="6"
+        android:backgroundTint="#1EAFF1"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+
+        />
+
+
+
+</LinearLayout>
