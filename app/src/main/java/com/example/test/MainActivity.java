@@ -157,9 +157,11 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < arrItems.size(); i++) {
                 sum = sum + Integer.parseInt(arrItems.get(i).getItemPrice());
             }
-            exp.setText("Total Expenditure : " + String.valueOf(sum));
+            exp.setText("Total Expenditure is : " + String.valueOf(sum));
 
 
-    }}
+
+    }
+    }
 
 }
